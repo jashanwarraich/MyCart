@@ -18,7 +18,7 @@ const data = {
       category: 'Shirts',
       image: '/images/p2.jpg',
       price: 1999,
-      countInStock: 20,
+      countInStock: 0,
       brand: 'Adidas',
       rating: 4.6,
       numReviews: 10,
