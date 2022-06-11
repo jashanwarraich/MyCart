@@ -9,7 +9,7 @@ export default function SigninScreen() {
   const redirectInUrl = new URLSearchParams(search).get('redirect');
   const redirect = redirectInUrl ? redirectInUrl : '/';
   return (
-    <Container classname="small-container">
+    <Container className="small-container">
       <Helmet>
         <title>Sign In</title>
       </Helmet>
@@ -29,7 +29,7 @@ export default function SigninScreen() {
         </div>
         <div className="mb-3">
           New customer?{' '}
-          <Link to={`/signup?redirect=${redirect}`}>Create your accout</Link>
+          <Link to={`/signup?redirect=${redirect}`}>Create your account</Link>
         </div>
       </Form>
     </Container>
