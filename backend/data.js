@@ -35,7 +35,7 @@ const data = {
       slug: 'adidas-fit-shirt',
       category: 'Shirts',
       image: '/images/p2.jpg',
-      price: 1999,
+      price: 1499,
       countInStock: 0,
       brand: 'Adidas',
       rating: 4.6,
