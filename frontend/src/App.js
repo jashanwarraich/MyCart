@@ -73,7 +73,10 @@ function App() {
               </Button>
 
               <LinkContainer to="/">
-                <Navbar.Brand>amazona</Navbar.Brand>
+                {/* <Navbar.Brand>amazona</Navbar.Brand> */}
+                <Navbar.Brand>
+                  <img src="/images/logo.png" height="35" alt="MyCart"></img>
+                </Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <SearchBox />
@@ -163,7 +166,26 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All rights reserved</div>
+          <div className="text-center myfootertext">
+            All rights reserved |{' '}
+            <a
+              className="myfooter"
+              href="https://www.linkedin.com/in/jashanwarraich/"
+              target="_blank"
+            >
+              <img src="/images/li.png" height="17" alt="LinkedIn"></img>
+              /jashanwarraich
+            </a>
+            {' | '}
+            <a
+              className="myfooter"
+              href="https://github.com/jashanwarraich"
+              target="_blank"
+            >
+              <img src="/images/git.png" height="17" alt="LinkedIn"></img>
+              /jashanwarraich
+            </a>
+          </div>
         </footer>
       </div>
     </BrowserRouter>

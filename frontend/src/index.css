@@ -90,3 +90,13 @@ main{
 .text-bold {
   font-weight: bold;
 }
+
+.myfooter{
+  color: #000000;
+    text-decoration: none;
+  
+}
+
+.myfootertext{
+  font-weight: 500;
+}
