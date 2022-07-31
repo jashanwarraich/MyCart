@@ -13,6 +13,7 @@ import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { getError } from '../utils';
 import { Store } from '../Store';
+import parse from "html-react-parser";
 const reducer = (state, action) => {
   switch (action.type) {
     case 'FETCH_REQUEST':
@@ -73,19 +74,22 @@ function ProductScreen() {
   ) : (
     <div>
       <Row>
-        <Col md={6}>
+        <Col md={5}>
           <img
-            className="img-large"
+            className="img-large pimage"
             src={product.image}
             alt={product.name}
+
           ></img>
         </Col>
-        <Col md={3}>
+        <Col md={4}>
           <ListGroup variant="flush">
             <ListGroup.Item>
-              <Helmet>
-                <title>{product.name}</title>
-              </Helmet>
+              {/* <Helmet> */}
+                {/* <title> */}
+                  <h2>{product.name}</h2>
+                  {/* </title> */}
+              {/* </Helmet> */}
             </ListGroup.Item>
             <ListGroup.Item>
               <Rating
@@ -93,10 +97,10 @@ function ProductScreen() {
                 numReviews={product.numReviews}
               ></Rating>
             </ListGroup.Item>
-            <ListGroup.Item>Price:₹{product.price}</ListGroup.Item>
+            <ListGroup.Item><b>Price:</b> ₹{product.price}</ListGroup.Item>
             <ListGroup.Item>
-              Description:
-              <p>{product.description}</p>
+            <h4>Description</h4>
+              <p>{parse(product.description)}</p>
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -106,7 +110,7 @@ function ProductScreen() {
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <Row>
-                    <Col>Price:</Col>
+                    <Col>Price: </Col>
                     <Col>₹{product.price}</Col>
                   </Row>
                 </ListGroup.Item>

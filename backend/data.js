@@ -27,7 +27,13 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
-      description: '100% premium Cotton, pre washed for an extremely soft finish and rich look.',
+      description: `<div>• <b>Care Instructions:</b> Machine Wash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+      <div>• <b>Fabrics:</b> 100% High-grade Cotton </div>
+      <div>• <b>Suitable for:</b> Sports, Casual</div>
+      <div>• <b>Wash Instruction:</b> Handwash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+  `,
     },
     {
       // _id: '2',
