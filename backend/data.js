@@ -27,7 +27,7 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
-      description: 'higg quality shirt',
+      description: '100% premium Cotton, pre washed for an extremely soft finish and rich look.',
     },
     {
       // _id: '2',
