@@ -1,5 +1,4 @@
-
-![Logo](https://github.com/jashanwarraich/MyCart/blob/master/frontend/public/images/readmebanner-01.jpg)
+![Banner](https://user-images.githubusercontent.com/69632807/182194463-1084f3f0-f499-4c26-93e6-0e567f807c55.jpg)
 
 
 # MyCart
