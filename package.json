@@ -1,7 +1,7 @@
 {
-  "name": "amazona",
+  "name": "mycart",
   "version": "1.0.0",
-  "description": "1. Created React App",
+  "description": "![Banner](https://user-images.githubusercontent.com/69632807/182194463-1084f3f0-f499-4c26-93e6-0e567f807c55.jpg)",
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install --force  && cd ../frontend && npm install --force && npm run build --force",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jashanwarraich/amazona.git"
+    "url": "git+https://github.com/jashanwarraich/MyCart.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jashanwarraich/amazona/issues"
+    "url": "https://github.com/jashanwarraich/MyCart/issues"
   },
-  "homepage": "https://github.com/jashanwarraich/amazona#readme"
+  "homepage": "https://github.com/jashanwarraich/MyCart#readme"
 }
