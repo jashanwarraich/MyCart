@@ -46,7 +46,13 @@ const data = {
       brand: 'Adidas',
       rating: 4.6,
       numReviews: 10,
-      description: 'Best in this price Segment',
+      description: `<div>• <b>Care Instructions:</b> Machine Wash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+      <div>• <b>Fabrics:</b> 100% High-grade Cotton </div>
+      <div>• <b>Suitable for:</b> Sports, Casual</div>
+      <div>• <b>Wash Instruction:</b> Handwash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+  `,
     },
     {
       // _id: '3',
@@ -59,7 +65,13 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 14,
-      description: 'Grey Color Pant',
+      description: `<div>• <b>Care Instructions:</b> Machine Wash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+      <div>• <b>Fabrics:</b> 100% High-grade Cotton </div>
+      <div>• <b>Suitable for:</b> Sports, Casual</div>
+      <div>• <b>Wash Instruction:</b> Handwash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+  `,
     },
     {
       // _id: '4',
@@ -72,7 +84,13 @@ const data = {
       brand: 'Adidas',
       rating: 4.6,
       numReviews: 10,
-      description: 'Best in this price Segment',
+      description: `<div>• <b>Care Instructions:</b> Machine Wash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+      <div>• <b>Fabrics:</b> 100% High-grade Cotton </div>
+      <div>• <b>Suitable for:</b> Sports, Casual</div>
+      <div>• <b>Wash Instruction:</b> Handwash</div>
+      <div>• <b>Fit Type:</b> Regular Fit</div>
+  `,
     },
   ],
 };
